@@ -1,0 +1,17 @@
+:root {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  height: 100vh;
+  background-color: var(--mantine-color-background-0);
+}
+body,
+html {
+  overscroll-behavior: none;
+}

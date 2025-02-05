@@ -1,0 +1,32 @@
+.mantine-NavLink-root {
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  svg {
+    stroke-width: 1.5;
+  }
+
+  transition: all 0.2s;
+
+  &[data-active] {
+    border: 1px solid var(--mantine-color-gray-3);
+    z-index: 10;
+    color: var(--mantine-color-text-0);
+    box-shadow: var(--mantine-shadow-xs);
+    background-color: var(--mantine-color-primary-1);
+    font-weight: 700;
+    svg {
+      stroke-width: 2;
+    }
+  }
+
+  &:not([data-active]) {
+    &:hover {
+      background-color: var(--mantine-color-primary-0);
+    }
+  }
+}
+
+.mantine-AppShell-navbar {
+  justify-content: space-between;
+}

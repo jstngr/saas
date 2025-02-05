@@ -1,0 +1,8 @@
+.mainContainer {
+  border-radius: var(--mantine-radius-md);
+  box-shadow: var(--mantine-shadow-sm);
+  background-color: var(--mantine-color-lightWhite-0);
+  padding: 10px 20px;
+  overflow-y: scroll;
+  overscroll-behavior-y: auto;
+}
